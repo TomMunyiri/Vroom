@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vroom</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Orders</string>
+    <string name="title_notifications">My account</string>
+    <string name="google_sign_in">Google Sign in</string>
+    <string name="title_activity_order_ride">Map</string>
+</resources>
