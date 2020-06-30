@@ -148,13 +148,13 @@ public class OrderRideActivity extends FragmentActivity implements OnMapReadyCal
                 mCurrLocationMarker = mMap.addMarker(markerOptions);
 
                 //move map camera
-                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 14));
+                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 20));
 
-                Circle circle = mMap.addCircle(new CircleOptions()
+                /*Circle circle = mMap.addCircle(new CircleOptions()
                         .center(new LatLng(location.getLatitude(), location.getLongitude()))
                         .radius(1000)
                         .strokeColor(R.color.colorBlueTransparent)
-                        .fillColor(R.color.colorBlueTransparent));
+                        .fillColor(R.color.colorBlueTransparent));*/
             }
         }
     };
